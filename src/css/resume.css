@@ -1,26 +1,108 @@
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-    padding:0;
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5{
-    margin:0
+h5 {
+	margin: 0;
 }
 
 @page {
-    margin: 0;
+	margin: 0;
 }
 
-.resume_border{
-    width: 8.5in;
-    height: 11in;
-    border: 1px black solid;
+.resume_border {
+	width: 8.5in;
+	height: 11in;
+	border: 1px black solid;
+	padding: 1rem 2rem;
+}
+
+#Print {
+	display: block;
+}
+
+@media print {
+	.resume_border {
+		border: none;
+	}
+	#Print {
+		display: none;
+	}
+}
+
+/* Actual Resume Formating */
+.resume_border {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.title_line {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid black;
+}
+
+.title_line_name {
+	font-size: 2rem;
+}
+
+.contact_info {
+	display: flex;
+	padding: 2px;
+	gap: 9px;
+}
+
+.contact_info_entry {
+	gap: 3px;
+	display: flex;
+}
+
+.section_title {
+	border-bottom: 1px solid black;
+}
+
+.date_and_title_section {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-top: 5px;
+}
+
+.date_and_title_subtitle {
+	margin-top: -2px;
+}
+
+.date_italic_text {
+	font-weight: 100;
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.relevant_courses_text {
+	font-size: 0.9rem;
+}
+
+li {
+	font-size: 0.9rem;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
 }
