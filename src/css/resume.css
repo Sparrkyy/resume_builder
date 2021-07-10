@@ -106,3 +106,7 @@ li {
 ul {
 	margin: 0;
 }
+
+.date_and_title_container {
+	margin-top: 10px;
+}
