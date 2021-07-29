@@ -27,10 +27,10 @@ const content = {
 				dates: "May-Sep 2021",
 				positionTitle: "Software Developer Intern",
 				bulletPoints: [
-					"Redesigned and Reconstructed tagging web application in order to correspond to the new taxonomy",
-					"Automated taxonomy data to allow for the non-technical team members to edit the taxonomy and have those changes reflected in the code saving countless hours of work",
-					"Restructured and migrated the backend after the controlling employee left",
-					"Designed the way that our clothing taxonomy was coded as to allow for consistency across all of our platforms",
+					"Redesigned and reconstructed a web application to implement structural changes in data, including implementing a graph-like data structure to handle complex dependencies.",
+					"Automated data workflow with python to allow for non-technical members to safely update data, and have those changes reflected across our platforms saving countless hours of work from the technical and non-technical teams.",
+					"Played a key role in migrating and maintaining the backend after the original developer left, including creating documention for it, and adding new API end points for our various applications.",
+					"Designed the way that important data for a new service was stored as to allow for consistency across all of our platforms",
 				],
 			},
 			{
@@ -38,9 +38,9 @@ const content = {
 				dates: "Dec 2020 - May 2021",
 				positionTitle: "Full Stack Developer Intern",
 				bulletPoints: [
-					"Built and maintained an internal dashboard that handles real time stock information with React.js, Firebase, and Node.js",
-					"Built a Python SDK for the dashboard to allow for manipulation of the data",
-					"Played a large role in creating new business opportunities through the above work",
+					"Played a key role in building and maintaining an internal dashboard that handles real time information.",
+					"Built a Python SDK for the dashboard to allow for manipulation of the displayed data from other programs.",
+					"Played a large role in creating new business opportunities through the above work.",
 				],
 			},
 		],
