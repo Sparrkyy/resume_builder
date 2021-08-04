@@ -28,7 +28,7 @@ h5 {
 	width: 8.5in;
 	height: 11in;
 	border: 1px black solid;
-	padding: 1rem 2rem;
+	padding: 3rem 5rem;
 }
 
 #Print {
@@ -48,7 +48,7 @@ h5 {
 .resume_border {
 	display: flex;
 	flex-direction: column;
-	gap: 3rem;
+	gap: 1rem;
 }
 
 .title_line {
