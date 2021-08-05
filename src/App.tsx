@@ -19,7 +19,7 @@ const content = {
 		gpa: "3.90",
 		degreeName: "Bachlors Of Arts: Computer Science",
 		relevantCourses:
-			"Relevant Courses: Algorithims and Data Structures, Introduction to Software Systems, Software Design, Foundation of programming, Introduction to Computer Science, Discrete Mathematics",
+			"Relevant Courses: Algorithims and Data Structures, Introduction to Software Systems, Software Design, Foundation of programming, Introduction to Computer Science, Discrete Mathematics.",
 	},
 	employment: {
 		positions: [
@@ -28,9 +28,9 @@ const content = {
 				dates: "May-Sep 2021",
 				positionTitle: "Software Developer Intern",
 				bulletPoints: [
-					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data relationships that is now used across all platforms.",
+					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
 					"Played a key role in the reconstruction of a internal web app in React.js from Vue.js with over 80 commits pushed to production.",
-					"Automated data workflow with python to allow for non-technical members to safely update data, and have those changes reflected across our platforms saving countless hours of work from the technical and non-technical teams.",
+					"Proactively automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms saving countless hours of work from the technical and non-technical teams.",
 					"Created documention for, and added end points to our API for our various applications in Node.js.",
 				],
 			},
@@ -39,8 +39,8 @@ const content = {
 				dates: "Dec 2020 - May 2021",
 				positionTitle: "Full Stack Developer Intern",
 				bulletPoints: [
-					"Played a key role in building and maintaining an internal dashboard that handles real time information and was integral to creating new bussiness oppertunties.",
-					"Built a Python SDK for the dashboard to allow for manipulation of the displayed data from other programs.",
+					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles real time information and was integral to creating new bussiness opportunties.",
+					"Built an API in Python for the dashboard to allow for manipulation of the displayed data from other company software",
 				],
 			},
 		],
@@ -48,21 +48,28 @@ const content = {
 	projectsAndOpenSource: {
 		projects: [
 			{
-				title: "McGill Tools Contributer",
+				title: "Algorithm Visualizer",
 				date: "June 2021 - Current",
 				description:
-					"Part of a team that is working to provide important services to the McGill community. With over 6000 current users, we provide services like notifications when classes open, and are working on providing a nofitication service for finals ",
+					"A web app that helps to visualize common pathfinding algorithms. Created in React.js and Typescript. ",
 			},
 			{
-				title: "Algorithim Visilizer",
+				title: "Class Schedule Web Scraper",
 				date: "June 2021 - Current",
-				description: "A project that helps to visualize common graph algorithims. Created with Typescript, and React",
+				description:
+					"Reversed engenieered the schedule builder web app to allow for an API to be built around it, and all course information to be availiable to the McGill community. Created in Node.js, Express.js, and TypeScript.",
 			},
+			// {
+			// 	title: "McGill Tools Contributer",
+			// 	date: "June 2021 - Current",
+			// 	description:
+			// 		"Part of a team that is working to provide important services to the McGill community. With over 6000 current users, we provide services like notifications when classes open, and are working on providing a nofitication service for finals ",
+			// },
 			{
 				title: "Heal and Hope Website",
 				date: "May 2021 - Current",
 				description:
-					"Serves as the home page for the entire Heal and Hope organization. Created with Typescript, React, and Node.js",
+					"Volunteered my time to build this website that fundraises for surgical procedures of children with war-related injuries. Created in Next.js, and TypeScript.",
 			},
 		],
 	},
@@ -70,14 +77,14 @@ const content = {
 		list: [
 			{
 				skillType: "PROGRAMMING LANGAUGES:",
-				skillList: "Java, JavaScript, TypeScript, Python, C, HTML/CSS",
+				skillList: "TypeScript/Javascript, Python, Java, C, HTML/CSS",
 			},
 			{
-				skillType: "FRAMEWORKS, LIBRARIES, AND TOOLS:",
-				skillList: "Node.js, React.js, Vue.js, Firebase",
+				skillType: "FRAMEWORKS AND TOOLS:",
+				skillList: "React.js, Node.js, Express.js, Vue.js, Firebase, Next.js, Git, Jira",
 			},
 			{
-				skillType: "LANGAUGES",
+				skillType: "LANGAUGES:",
 				skillList: "English (Native), French (Fluent)",
 			},
 		],
@@ -137,7 +144,7 @@ function App() {
 					);
 				})}
 			</InformationalBlock>
-			<InformationalBlock sectionTitle={"PROJECTS AND OPEN SOURCE"}>
+			<InformationalBlock sectionTitle={"TECHNICAL PROJECTS"}>
 				{content.projectsAndOpenSource.projects.map((project) => {
 					return (
 						<>
@@ -213,7 +220,7 @@ interface SkillsContent {
 
 const Skill: FC<SkillsContent> = ({ skillList, skillType }) => {
 	return (
-		<div style={{ display: "flex", gap: "5px", marginTop: "7px" }}>
+		<div style={{ display: "flex", gap: "5px", marginTop: "7px", alignItems: "center" }}>
 			<h5>{skillType}</h5>
 			<span>{skillList}</span>
 		</div>
