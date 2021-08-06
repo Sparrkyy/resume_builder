@@ -30,7 +30,7 @@ const content = {
 				bulletPoints: [
 					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
 					"Played a key role in the reconstruction of a internal web app in React.js from Vue.js with over 80 commits pushed to production.",
-					"Proactively automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms saving countless hours of work from the technical and non-technical teams.",
+					"Proactively automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
 					"Created documention for, and added end points to our API for our various applications in Node.js.",
 				],
 			},
@@ -40,7 +40,7 @@ const content = {
 				positionTitle: "Full Stack Developer Intern",
 				bulletPoints: [
 					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles real time information and was integral to creating new bussiness opportunties.",
-					"Built an API in Python for the dashboard to allow for manipulation of the displayed data from other company software",
+					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software",
 				],
 			},
 		],
@@ -57,7 +57,7 @@ const content = {
 				title: "Class Schedule Web Scraper",
 				date: "June 2021 - Current",
 				description:
-					"Reversed engenieered the schedule builder web app to allow for an API to be built around it, and all course information to be availiable to the McGill community. Created in Node.js, Express.js, and TypeScript.",
+					"Reversed engenieered the uninversity's schedule builder web app to allow for an API to be built around it, and all course information to be programmically availiable to the McGill community. Created in Node.js, Express.js, and TypeScript.",
 			},
 			// {
 			// 	title: "McGill Tools Contributer",
@@ -69,7 +69,7 @@ const content = {
 				title: "Heal and Hope Website",
 				date: "May 2021 - Current",
 				description:
-					"Volunteered my time to build this website that fundraises for surgical procedures of children with war-related injuries. Created in Next.js, and TypeScript.",
+					"Volunteered to build the website that helps the student organization fundraise for surgical procedures of children with war-related injuries. Created in Next.js, and TypeScript.",
 			},
 		],
 	},
