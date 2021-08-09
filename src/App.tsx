@@ -8,30 +8,30 @@ const content = {
 	title: {
 		fullName: "ETHAN HODGES",
 		title: "COMPUTER SCIENCE STUDENT",
-		email: "ethan.hodges@mail.mcgill.ca",
+		email: "ethancampbellhodges@gmail.com",
 		phoneNumber: "610.888.4809",
 		githubUsername: "Sparrkyy",
 		linkedInLink: "/in/ethan-hodges",
 	},
 	education: {
 		universityName: "MCGILL UNIVERSITY",
-		dates: "2019-2022",
+		dates: "Sep 2019 - May 2022",
 		gpa: "3.90",
-		degreeName: "Bachlors Of Arts: Computer Science",
+		degreeName: "Bachelors Of Arts: Computer Science",
 		relevantCourses:
-			"Relevant Courses: Algorithims and Data Structures, Introduction to Software Systems, Software Design, Foundation of programming, Introduction to Computer Science, Discrete Mathematics.",
+			"Relevant Courses: Algorithms and Data Structures, Introduction to Software Systems, Software Design, Introduction to Computer Science, Discrete Mathematics.",
 	},
 	employment: {
 		positions: [
 			{
 				companyTitle: "Tote",
-				dates: "May-Sep 2021",
+				dates: "May - Sep 2021",
 				positionTitle: "Software Developer Intern",
 				bulletPoints: [
 					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
-					"Played a key role in the reconstruction of a internal web app in React.js from Vue.js with over 80 commits pushed to production.",
+					"Played a key role in the reconstruction of an internal web app in React.js from Vue.js with over 80 commits pushed to production.",
 					"Proactively automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
-					"Created documention for, and added end points to our API for our various applications in Node.js.",
+					"Created documentation for, added end points, and reduced technical debt through refactoring, in our API using Node.js and Express.js.",
 				],
 			},
 			{
@@ -39,8 +39,8 @@ const content = {
 				dates: "Dec 2020 - May 2021",
 				positionTitle: "Full Stack Developer Intern",
 				bulletPoints: [
-					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles real time information and was integral to creating new bussiness opportunties.",
-					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software",
+					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to new business opportunities.",
+					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software.",
 				],
 			},
 		],
@@ -57,7 +57,7 @@ const content = {
 				title: "Class Schedule Web Scraper",
 				date: "June 2021 - Current",
 				description:
-					"Reversed engenieered the uninversity's schedule builder web app to allow for an API to be built around it, and all course information to be programmically availiable to the McGill community. Created in Node.js, Express.js, and TypeScript.",
+					"Reversed engineered the university's schedule builder web app to allow for an API to be built around it, and all course information to be programmatically available to the McGill community. Created in Node.js, Express.js, and TypeScript.",
 			},
 			// {
 			// 	title: "McGill Tools Contributer",
@@ -76,7 +76,7 @@ const content = {
 	skills: {
 		list: [
 			{
-				skillType: "PROGRAMMING LANGAUGES:",
+				skillType: "PROGRAMMING LANGUAGES:",
 				skillList: "TypeScript/Javascript, Python, Java, C, HTML/CSS",
 			},
 			{
@@ -84,8 +84,8 @@ const content = {
 				skillList: "React.js, Node.js, Express.js, Vue.js, Firebase, Next.js, Git, Jira",
 			},
 			{
-				skillType: "LANGAUGES:",
-				skillList: "English (Native), French (Fluent)",
+				skillType: "LANGUAGES:",
+				skillList: "English (Native), French (Limited working proficiency)",
 			},
 		],
 	},
