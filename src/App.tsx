@@ -15,9 +15,9 @@ const content = {
 	},
 	education: {
 		universityName: "MCGILL UNIVERSITY",
-		dates: "Sep 2019 - May 2022",
+		dates: "Sep 2019 - Present",
 		gpa: "3.90",
-		degreeName: "Bachelors Of Arts: Computer Science",
+		degreeName: "Bachelor of Arts, Computer Science (Expected Graduation: May 2022)",
 		relevantCourses:
 			"Relevant Courses: Algorithms and Data Structures, Introduction to Software Systems, Software Design, Introduction to Computer Science, Discrete Mathematics.",
 	},
@@ -25,7 +25,7 @@ const content = {
 		positions: [
 			{
 				companyTitle: "Tote",
-				dates: "May - Sep 2021",
+				dates: "May 2021 - Sep 2021",
 				positionTitle: "Software Developer Intern",
 				bulletPoints: [
 					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
@@ -49,13 +49,13 @@ const content = {
 		projects: [
 			{
 				title: "Algorithm Visualizer",
-				date: "June 2021 - Current",
+				date: "June 2021 - Present",
 				description:
 					"A web app that helps to visualize common pathfinding algorithms. Created in React.js and Typescript. ",
 			},
 			{
 				title: "Class Schedule Web Scraper",
-				date: "June 2021 - Current",
+				date: "June 2021 - Present",
 				description:
 					"Reversed engineered the university's schedule builder web app to allow for an API to be built around it, and all course information to be programmatically available to the McGill community. Created in Node.js, Express.js, and TypeScript.",
 			},
@@ -67,7 +67,7 @@ const content = {
 			// },
 			{
 				title: "Heal and Hope Website",
-				date: "May 2021 - Current",
+				date: "May 2021 - Present",
 				description:
 					"Volunteered to build the website that helps the student organization fundraise for surgical procedures of children with war-related injuries. Created in Next.js, and TypeScript.",
 			},
