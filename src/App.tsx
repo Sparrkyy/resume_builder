@@ -9,7 +9,7 @@ const content = {
 		fullName: "ETHAN HODGES",
 		title: "COMPUTER SCIENCE STUDENT",
 		email: "ethancampbellhodges@gmail.com",
-		phoneNumber: "+1 (610)-888-4809",
+		phoneNumber: "(610)-888-4809",
 		github: "Sparrkyy",
 		githubUsername: "https://github.com/Sparrkyy",
 		linkedIn: "/in/ethan-hodges/",
