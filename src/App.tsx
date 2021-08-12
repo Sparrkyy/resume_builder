@@ -9,9 +9,11 @@ const content = {
 		fullName: "ETHAN HODGES",
 		title: "COMPUTER SCIENCE STUDENT",
 		email: "ethancampbellhodges@gmail.com",
-		phoneNumber: "610.888.4809",
-		githubUsername: "Sparrkyy",
-		linkedInLink: "/in/ethan-hodges",
+		phoneNumber: "+1 (610)-888-4809",
+		github: "Sparrkyy",
+		githubUsername: "https://github.com/Sparrkyy",
+		linkedIn: "/in/ethan-hodges/",
+		linkedInLink: "https://www.linkedin.com/in/ethan-hodges/",
 	},
 	education: {
 		universityName: "MCGILL UNIVERSITY",
@@ -28,19 +30,21 @@ const content = {
 				dates: "May 2021 - Sep 2021",
 				positionTitle: "Software Developer Intern",
 				bulletPoints: [
-					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
+					"Designed and implemented a graph data architecture using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
 					"Played a key role in the reconstruction of an internal web app in React.js from Vue.js with over 80 commits pushed to production.",
 					"Proactively automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
 					"Created documentation for, added end points, and reduced technical debt through refactoring, in our API using Node.js and Express.js.",
+					"Completed sprint to build quality assurance features in our internal tools to prepare for product launch.",
 				],
 			},
 			{
 				companyTitle: "Hard Eight Holdings LLC",
 				dates: "Dec 2020 - May 2021",
-				positionTitle: "Full Stack Developer Intern",
+				positionTitle: "Software Engineering Intern",
 				bulletPoints: [
 					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to new business opportunities.",
 					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software.",
+					"Implemented serverless, Google cloud functions, to periodically clean incoming data. ",
 				],
 			},
 		],
@@ -112,11 +116,11 @@ function App() {
 					</div>
 					<div className='contact_info_entry'>
 						<FontAwesomeIcon icon={faGithubSquare} />
-						<span>{content.title.githubUsername}</span>
+						<a href={content.title.githubUsername}>{content.title.github}</a>
 					</div>
 					<div className='contact_info_entry'>
 						<FontAwesomeIcon icon={faLinkedin} />
-						<span>{content.title.linkedInLink}</span>
+						<a href={content.title.linkedInLink}>{content.title.linkedIn}</a>
 					</div>
 				</section>
 			</section>
