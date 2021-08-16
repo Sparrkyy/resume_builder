@@ -21,27 +21,27 @@ const content = {
 		gpa: "3.90",
 		degreeName: "Bachelor of Arts, Computer Science (Expected Graduation: May 2022)",
 		relevantCourses:
-			"Relevant Courses: Algorithms and Data Structures, Introduction to Software Systems, Software Design, Introduction to Computer Science, Discrete Mathematics.",
+			"Relevant Courses: Algorithms and Data Structures (Java), Introduction to Software Systems, Software Design (Object-Oriented Design), Introduction to Computer Science (Java), Discrete Mathematics, Foundations of Programming (Equivalent).",
 	},
 	employment: {
 		positions: [
 			{
 				companyTitle: "Tote",
 				dates: "May 2021 - Sep 2021",
-				positionTitle: "Software Developer Intern",
+				positionTitle: "Software Engineering Intern",
 				bulletPoints: [
-					"Designed and implemented a graph data structure using Node.js and MongoDB to handle complex data categorization that is now used across all platforms.",
-					"Played a key role in the reconstruction of an internal web app in React.js from Vue.js with over 80 commits pushed to production.",
-					"Proactively automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
+					"Designed and implemented an innovative graph data structure using Node.js and our MongoDB databases to handle complex data categorization that is now used across all platforms.",
+					"Collaborated in the reconstruction of an internal web app in React.js from Vue.js with over 80 commits pushed to production.",
+					"Automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
 					"Created documentation for, added end points, and reduced technical debt through refactoring, in our API using Node.js and Express.js.",
 				],
 			},
 			{
 				companyTitle: "Hard Eight Holdings LLC",
 				dates: "Dec 2020 - May 2021",
-				positionTitle: "Full Stack Developer Intern",
+				positionTitle: "Software Engineering Intern",
 				bulletPoints: [
-					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to new business opportunities.",
+					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to innovative business opportunities.",
 					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software.",
 				],
 			},
@@ -83,7 +83,7 @@ const content = {
 			},
 			{
 				skillType: "FRAMEWORKS AND TOOLS:",
-				skillList: "React.js, Node.js, Express.js, Vue.js, Firebase, Next.js, Git, Jira",
+				skillList: "React.js, Node.js, Express.js, Vue.js, Firebase, Next.js, Git, Jira, Agile",
 			},
 			{
 				skillType: "LANGUAGES:",
@@ -114,11 +114,11 @@ function App() {
 					</div>
 					<div className='contact_info_entry'>
 						<FontAwesomeIcon icon={faGithubSquare} />
-						<span>{content.title.githubUsername}</span>
+						<a href={content.title.githubUsername}>{content.title.github}</a>
 					</div>
 					<div className='contact_info_entry'>
 						<FontAwesomeIcon icon={faLinkedin} />
-						<span>{content.title.linkedInLink}</span>
+						<a href={content.title.linkedInLink}>{content.title.linkedIn}</a>
 					</div>
 				</section>
 			</section>
