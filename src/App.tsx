@@ -30,7 +30,7 @@ const content = {
 				dates: "May 2021 - Sep 2021",
 				positionTitle: "Software Engineering Intern",
 				bulletPoints: [
-					"Designed and implemented an innovative graph data structure using Node.js and our MongoDB databases to handle complex data categorization that is now used across all platforms.",
+					"Designed and implemented a tree data structure using Node.js and our MongoDB databases to handle complex data categorization that is now used across all platforms.",
 					"Collaborated in the reconstruction of an internal web app in React.js from Vue.js with over 80 commits pushed to production.",
 					"Automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
 					"Created documentation for, added end points, and reduced technical debt through refactoring, in our API using Node.js and Express.js.",
@@ -41,7 +41,7 @@ const content = {
 				dates: "Dec 2020 - May 2021",
 				positionTitle: "Software Engineering Intern",
 				bulletPoints: [
-					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to innovative business opportunities.",
+					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to new business opportunities.",
 					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software.",
 				],
 			},
