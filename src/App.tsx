@@ -28,21 +28,23 @@ const content = {
 			{
 				companyTitle: "Tote",
 				dates: "May 2021 - Sep 2021",
-				positionTitle: "Software Engineering Intern",
+				positionTitle: "Software Engineer Intern",
 				bulletPoints: [
-					"Designed and implemented a tree data structure using Node.js and our MongoDB databases to handle complex data categorization that is now used across all platforms.",
+					"Designed and implemented a tree data structure using Node.js and our MongoDB (noSQL) databases to handle complex data categorization (Qualitative to Quantitative) that is now used across the entire engineering team.",
 					"Collaborated in the reconstruction of an internal web app in React.js from Vue.js with over 80 commits pushed to production.",
-					"Automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our platforms, saving countless hours of work from the technical and non-technical teams.",
-					"Created documentation for, added end points, and reduced technical debt through refactoring, in our API using Node.js and Express.js.",
+					"Automated data workflow with Python to allow for non-technical members to safely update data, and have those changes reflected across our mobile and web platforms, saving countless hours of work from the technical and non-technical teams.",
+					"Created documentation for, added end points for our mobile platform, and reduced technical debt through refactoring, in our API using Node.js and Express.js.",
+					"Helped to make training videos for future employees that cover the intricacies of our code base.",
 				],
 			},
 			{
 				companyTitle: "Hard Eight Holdings LLC",
 				dates: "Dec 2020 - May 2021",
-				positionTitle: "Software Engineering Intern",
+				positionTitle: "Software Engineer Intern",
 				bulletPoints: [
 					"Played a key role in building and maintaining an internal dashboard in React.js and Node.js that handles critical real time information and was integral to new business opportunities.",
 					"Built a wrapper for the dashboard's API in Python to allow for manipulation of the displayed data from other company software.",
+					"Used Google Cloud Functions (Serverless) to implement data clean up",
 				],
 			},
 		],
@@ -59,7 +61,7 @@ const content = {
 				title: "Class Schedule Web Scraper",
 				date: "June 2021 - Present",
 				description:
-					"Reversed engineered the university's schedule builder web app to allow for an API to be built around it, and all course information to be programmatically available to the McGill community. Created in Node.js, Express.js, and TypeScript.",
+					"Reversed engineered the university's schedule builder web app to allow for an API to be built around it, and all course information to be programmatically available to the McGill community for potential Open Source Projects. Created in Node.js, Express.js, and TypeScript.",
 			},
 			// {
 			// 	title: "McGill Tools Contributer",
@@ -71,19 +73,19 @@ const content = {
 				title: "Heal and Hope Website",
 				date: "May 2021 - Present",
 				description:
-					"Volunteered to build the website that helps the student organization fundraise for surgical procedures of children with war-related injuries. Created in Next.js, and TypeScript.",
+					"Volunteered to build the website that helps the student organization fundraise for surgical procedures of children with war-related injuries. Created in Next.js, React.js, and TypeScript.",
 			},
 		],
 	},
 	skills: {
 		list: [
 			{
-				skillType: "PROGRAMMING LANGUAGES:",
-				skillList: "TypeScript/Javascript, Python, Java, C, HTML/CSS",
+				skillType: "PROGRAMMING SKILLS",
+				skillList: "TypeScript/Javascript, Python, Java, C, HTML/CSS, Bash (Scripts) ",
 			},
 			{
 				skillType: "FRAMEWORKS AND TOOLS:",
-				skillList: "React.js, Node.js, Express.js, Vue.js, Firebase, Next.js, Git, Jira, Agile",
+				skillList: "React.js, Node.js, Express.js, Vue.js, Firebase, Next.js, Git, Jira, Agile, JSON",
 			},
 			{
 				skillType: "LANGUAGES:",
@@ -158,7 +160,7 @@ function App() {
 					);
 				})}
 			</InformationalBlock>
-			<InformationalBlock sectionTitle='SKILLS'>
+			<InformationalBlock sectionTitle='TECHNICAL SKILLS'>
 				{content.skills.list.map((skill) => {
 					return <Skill skillList={skill.skillList} skillType={skill.skillType}></Skill>;
 				})}
